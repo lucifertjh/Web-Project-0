@@ -58,7 +58,7 @@ input[type="submit"]:hover {
     border-color: $searchbd;
 }
 
-input[type="text"] {
+.as-search {
     background: $bodybg;
     border: 1px solid $searchbd;
     color: $bodycolor;
@@ -68,7 +68,7 @@ input[type="text"] {
     padding: 1px 8px;
 }
 
-input[type="text"]:focus {
+.as-search:focus {
     outline: none;
     border-color: $textbd;
 }
@@ -84,18 +84,18 @@ input[type="text"]:focus {
     height: 150px;
 }
 
-.bar {
+.as-title {
     color: $barcolor;
     font-size: 20px;
     justify-content: flex-start;
     margin: 25px 45px;
 }
 
-.line {
+.as-line {
     border-bottom: 1px solid $linebd;
 }
 
-.find {
+.as-header {
     height: 42px;
     font-size: 16px;
     font-weight: 500;
@@ -104,13 +104,13 @@ input[type="text"]:focus {
     padding: 0;
 }
 
-.adv {
+.as-form {
     margin: 40px 45px;
     padding: 0;
     justify-content: flex-start;
 }
 
-.as {
+.as-row {
     padding: 0;
     height: 42px;
     align-items: flex-start;
@@ -122,7 +122,7 @@ input[type="text"]:focus {
     }
 }
 
-.ass {
+.as-submit {
     padding: 0;
     justify-content: flex-end;
     input {

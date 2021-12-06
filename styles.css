@@ -48,7 +48,7 @@ input[type="submit"]:hover {
   border-color: #5f6368;
 }
 
-input[type="text"] {
+.as-search {
   background: #202124;
   border: 1px solid #5f6368;
   color: #bdc1c6;
@@ -58,7 +58,7 @@ input[type="text"] {
   padding: 1px 8px;
 }
 
-input[type="text"]:focus {
+.as-search:focus {
   outline: none;
   border-color: #8ab4f8;
 }
@@ -78,7 +78,7 @@ input[type="text"]:focus {
   height: 150px;
 }
 
-.bar {
+.as-title {
   color: #f28b82;
   font-size: 20px;
   -webkit-box-pack: start;
@@ -87,11 +87,11 @@ input[type="text"]:focus {
   margin: 25px 45px;
 }
 
-.line {
+.as-line {
   border-bottom: 1px solid #3c4043;
 }
 
-.find {
+.as-header {
   height: 42px;
   font-size: 16px;
   font-weight: 500;
@@ -102,7 +102,7 @@ input[type="text"]:focus {
   padding: 0;
 }
 
-.adv {
+.as-form {
   margin: 40px 45px;
   padding: 0;
   -webkit-box-pack: start;
@@ -110,7 +110,7 @@ input[type="text"]:focus {
           justify-content: flex-start;
 }
 
-.as {
+.as-row {
   padding: 0;
   height: 42px;
   -webkit-box-align: start;
@@ -121,7 +121,7 @@ input[type="text"]:focus {
           justify-content: flex-start;
 }
 
-.as div {
+.as-row div {
   padding: 0;
   height: 29px;
   -webkit-box-align: center;
@@ -129,14 +129,14 @@ input[type="text"]:focus {
           align-items: center;
 }
 
-.ass {
+.as-submit {
   padding: 0;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.ass input {
+.as-submit input {
   width: 120px;
   height: 30px;
   padding: 0 12px;
@@ -147,7 +147,7 @@ input[type="text"]:focus {
   border-color: #8ab4f8;
 }
 
-.ass input:hover {
+.as-submit input:hover {
   background-color: #aecbfa;
   border-color: #2f5bb7;
 }

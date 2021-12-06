@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="links">
             <a href="index.html">Google Search</a>
         </div>
-        <div class="bar">Advanced Search</div>
-        <div class="line"></div>
-        <div class="adv">
+        <div class="as-title">Advanced Search</div>
+        <div class="as-line"></div>
+        <div class="as-form">
             <form action="https://google.com/search">
-                <div class="find">Find pages with...</div>
-                <div class="as">
+                <div class="as-header">Find pages with...</div>
+                <div class="as-row">
                     <div>
                         <label for="as_q">all these words:</label>
-                        <input type="text" name="as_q" autofocus>
+                        <input class="as-search" type="text" name="as_q" autofocus>
                     </div>
                 </div>
-                <div class="as">
+                <div class="as-row">
                     <div>
                         <label for="as_epq">this exact word or phrase:</label>
-                        <input type="text" name="as_epq">
+                        <input class="as-search" type="text" name="as_epq">
                     </div>
                 </div>
-                <div class="as">
+                <div class="as-row">
                     <div>
                         <label for="as_oq">any of these words:</label>
-                        <input type="text" name="as_oq">
+                        <input class="as-search" type="text" name="as_oq">
                     </div>
                 </div>
-                <div class="as">
+                <div class="as-row">
                     <div>
                         <label for="as_eq">none of these words:</label>
-                        <input type="text" name="as_eq">
+                        <input class="as-search" type="text" name="as_eq">
                     </div>
                 </div>
-                <div class="ass">
+                <div class="as-submit">
                     <input type="submit" value="Advanced Search">
                 </div>
             </form>
