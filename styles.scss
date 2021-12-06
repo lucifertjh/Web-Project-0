@@ -1,39 +1,41 @@
-//color
-$bodybg: #202124;
-$bodycolor: #bdc1c6;
-$searchbd: #5f6368;
-$submitbg: #303134;
-$submitcolor: #e8eaed;
-$acolor: white;
-$barcolor: #f28b82;
-$linebd: #3c4043;
-$textbd: #8ab4f8;
+//colors
+$body-bgc: #202124;
+$body-clr: #bdc1c6;
+$search-bdc: #5f6368;
+$submit-bgc: #303134;
+$submit-clr: #e8eaed;
+$a-clr: white;
+$as-title-clr: #f28b82;
+$as-line-bdc: #3c4043;
+$as-search-bdc: #8ab4f8;
+$as-submit-bgc: #aecbfa;
+$as-submit-bdc: #2f5bb7;
 
 .search {
     height: 44px;
-    background: $bodybg;
-    border: 1px solid $searchbd;
+    background: $body-bgc;
+    border: 1px solid $search-bdc;
     border-radius: 24px;
     box-shadow: none;
     width: 550px;
     padding: 0 16px;
-    color: $submitcolor;
+    color: $submit-clr;
     font-size: 16px;
 }
 
 .search:hover {
-    background-color: $submitbg;
-    border-color: $submitbg;
+    background-color: $submit-bgc;
+    border-color: $submit-bgc;
 }
 
 .search:focus {
     outline: none;
-    background-color: $submitbg;
-    border-color: $submitbg;
+    background-color: $submit-bgc;
+    border-color: $submit-bgc;
 }
 
 body {
-    background: $bodybg;
+    background: $body-bgc;
     margin: 0;
     padding: 0;
 }
@@ -41,13 +43,13 @@ body {
 body, input {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color: $bodycolor;
+    color: $body-clr;
 }
 
 input[type="submit"] {
-    background: $submitbg;
-    border: 1px solid $submitbg;
-    color: $submitcolor;
+    background: $submit-bgc;
+    border: 1px solid $submit-bgc;
+    color: $submit-clr;
     height: 36px;
     border-radius: 4px;
     margin: 12px 6px;
@@ -55,13 +57,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    border-color: $searchbd;
+    border-color: $search-bdc;
 }
 
 .as-search {
-    background: $bodybg;
-    border: 1px solid $searchbd;
-    color: $bodycolor;
+    background: $body-bgc;
+    border: 1px solid $search-bdc;
+    color: $body-clr;
     border-radius: 1px;
     height: 25px;
     width: 552px;
@@ -70,7 +72,7 @@ input[type="submit"]:hover {
 
 .as-search:focus {
     outline: none;
-    border-color: $textbd;
+    border-color: $as-search-bdc;
 }
 
 .links {
@@ -85,21 +87,21 @@ input[type="submit"]:hover {
 }
 
 .as-title {
-    color: $barcolor;
+    color: $as-title-clr;
     font-size: 20px;
     justify-content: flex-start;
     margin: 25px 45px;
 }
 
 .as-line {
-    border-bottom: 1px solid $linebd;
+    border-bottom: 1px solid $as-line-bdc;
 }
 
 .as-header {
     height: 42px;
     font-size: 16px;
     font-weight: 500;
-    color: $submitcolor;
+    color: $submit-clr;
     justify-content: flex-start;
     padding: 0;
 }
@@ -131,13 +133,13 @@ input[type="submit"]:hover {
         padding: 0 12px;
         font-weight: bold;
         font-size: 11px;
-        color: $bodybg;
-        background: $textbd;
-        border-color: $textbd;
+        color: $body-bgc;
+        background: $as-search-bdc;
+        border-color: $as-search-bdc;
     }
     input:hover {
-        background-color: #aecbfa;
-        border-color: #2f5bb7;
+        background-color: $as-submit-bgc;
+        border-color: $as-submit-bdc;
     }
 }
 
@@ -147,7 +149,7 @@ label {
 }
 
 a {
-    color: $acolor;
+    color: $a-clr;
     text-decoration: none;
     vertical-align: middle;
     padding: 15px;
